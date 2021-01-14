@@ -1,0 +1,18 @@
+package com.tagdemo.jsp;
+
+public class Student {
+	
+	private String fName;
+	private String lName;
+	private boolean goldCustomer;
+
+	public Student(String fName, String lName, boolean goldCustomer) {
+		super();
+		this.fName = fName;
+		this.lName = lName;
+		this.goldCustomer = goldCustomer;
+	}
+	
+	
+
+}

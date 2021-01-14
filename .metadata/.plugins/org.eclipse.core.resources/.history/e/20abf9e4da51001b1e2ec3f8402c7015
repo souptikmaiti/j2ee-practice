@@ -1,0 +1,18 @@
+<html>
+
+<head><title>Student Confirmation</title></head>
+<body>
+
+The student is confirmed:  <%= request.getParameter("firstName") %> 
+	<%= request.getParameter("lastName") %> <%= "Country" + request.getParameter("country") %>
+<br/><br/>
+Getting Student's info by shortcut: ${param.firstName} ${param.lastName} ${param.country}
+
+<br/><br/>
+
+Student's Favorite Programming Language: ${param.favLang}
+
+</body>
+
+
+</html>

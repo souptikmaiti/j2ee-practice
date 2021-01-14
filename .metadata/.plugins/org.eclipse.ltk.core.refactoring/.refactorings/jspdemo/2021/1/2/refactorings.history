@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;cookies-personalize-response.jsp&apos; to &apos;cookies-personalize-response.jsp&apos;&#x0A;- Original project: &apos;jspdemo&apos;&#x0A;- Destination element: &apos;cookies-personalize-response.jsp&apos;&#x0A;- Original element: &apos;cookies-personalize-response.jsp&apos;" description="Copy file" element1="WebContent/cookies-personalize-response.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1610196304182" target="/jspdemo/WebContent/cookies-personalize-response.jsp" units="0" version="1.0"/>
+</session>

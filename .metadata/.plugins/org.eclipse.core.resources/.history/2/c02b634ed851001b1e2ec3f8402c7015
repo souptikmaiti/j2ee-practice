@@ -1,0 +1,10 @@
+<html>
+
+<body>
+
+The student is confirmed:  <%= request.getParameter("firstName") %> <%= request.getParameter("lastName") %>
+
+</body>
+
+
+</html>

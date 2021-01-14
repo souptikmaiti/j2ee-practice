@@ -1,0 +1,43 @@
+<%@ page import="java.util.*" %>
+
+<html>
+<body>
+
+<!-- Step1: create HTML form -->
+<!-- Step2: Add items to "To Do" list -->
+<!-- Step3: Display all "To Do" items from session -->
+
+
+<form action="todo-demo.jsp">
+
+	Add To Do: <input type="text" name="toDo" />
+
+	<input type="submit" value="Submit"/>
+
+</form>
+
+
+     <ul>
+     
+     	<%
+     		List<String> toDos = (List<String>) session.getAttribute("toDoList");
+     	
+	     	if (toDos == null) {
+	     		toDos = new ArrayList<String>();
+	 			session.setAttribute("toDoList", toDos);
+	 		}
+     		String task = request.getParameter("toDo");
+     		if (task != null)
+     			toDos.add(task);
+     		
+     		if (toDos != null && toDos.size()>0) {
+     			out.println("<br/>" + toDos.size() + ". " + toDos.get(toDos.size()-1));
+     		}
+     	%>
+     
+     
+     </ul>
+
+</body>
+
+</html>

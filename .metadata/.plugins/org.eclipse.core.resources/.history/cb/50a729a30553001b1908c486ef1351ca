@@ -1,0 +1,10 @@
+package com.tagdemo.jsp;
+
+public class Student {
+	
+	String fName;
+	String lName;
+	
+	boolean goldCustomer;
+
+}
